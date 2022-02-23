@@ -224,12 +224,12 @@ html body {
     .main .news__list h2 {
       display: inline-block;
       position: relative;
-      width: 70%;
+      width: 58%;
       left: 262px;
       bottom: 120px;
       text-decoration: none;
       color: black;
-      font-size: 32px; }
+      font-size: 26px; }
     .main .news__list .news__list__thumbnail {
       width: 250px;
       border-top-left-radius: 10px;
