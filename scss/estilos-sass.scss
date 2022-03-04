@@ -79,11 +79,16 @@ html body {
     text-align: center;
     color: white;    
     a {
+        font-size: 15px !important;
         color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: white ;
     }
     .smedia{
         .smedia__img{
-            width: 40px;
+            width: 40px !important;
             margin-left: 12px;
             margin-right: 12px;
             transition: 0.2s;
@@ -856,20 +861,6 @@ html body {
     }
 }
 
-.footer {
-    padding: 15px;
-    .smedia{
-        position: relative;
-        top: 12px;
-        .smedia__img{
-            width: 30px;
-        }
-    }
-    a {
-        font-size: 12px;
-    }
-}
-
 @media only screen and (max-width: 580px) {
     .main{
         .news__list {
@@ -897,5 +888,20 @@ html body {
                 height: 84px;
             }
         }
+    }
+}
+
+
+.footer {
+    padding: 15px;
+    .smedia{
+        position: relative;
+        top: 12px;
+        .smedia__img{
+            width: 30px;
+        }
+    }
+    a {
+        font-size: 11px;
     }
 }
