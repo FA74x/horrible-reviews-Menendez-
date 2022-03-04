@@ -706,6 +706,7 @@ html body {
         img {
         }
         p {
+            line-height: 1rem;
             font-size: 14px;
             bottom: -12px;
           }
@@ -716,8 +717,8 @@ html body {
             top: -20%;
         }
         p {
-            font-size: 20px;
-            line-height: 1.9rem;
+            font-size: 18px;
+            line-height: 1.2rem;
         }
     }
     .news__article:nth-child(4) {
@@ -725,7 +726,7 @@ html body {
         img {
         }
         p {
-            font-size: 20px;
+            font-size: 15px;
         }
     }
     .news__article:nth-child(5) {
@@ -754,7 +755,7 @@ html body {
             height: 100%;
         }
         p {
-            font-size: 14px;
+            font-size: 13px;
         }
     }
       
@@ -790,7 +791,7 @@ html body {
     .main {
         margin-top: 15px;
         h2 {
-            font-size: 28px;
+            font-size: 25px;
         }
         a:hover {
             text-decoration: none;
