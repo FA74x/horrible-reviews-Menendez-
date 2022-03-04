@@ -760,35 +760,6 @@ html body {
     }
       
     .main{
-        .news__list {
-            height: 84px;
-            p {
-                width: 200px;
-                display: block;
-                position: relative;
-                left: 125px;
-                bottom: 70px;
-                font-size: 10px;
-            }
-            h2 {
-                display: inline-block;
-                position: relative;
-                top: -100px;
-                left: 125px;
-                width: 75%;
-                font-size: 18px;
-                font-weight: 500;
-                margin-bottom: 0px;
-            }
-            .news__list__thumbnail {
-                object-fit: cover;
-                width: 120px;
-                height: 84px;
-            }
-        }
-    }
-
-    .main {
         margin-top: 15px;
         h2 {
             font-size: 25px;
@@ -839,8 +810,33 @@ html body {
                 border-bottom-left-radius: 10px;
             }
         }
+        .news__list {
+            height: 84px;
+            p {
+                width: 200px;
+                display: block;
+                position: relative;
+                left: 125px;
+                bottom: 70px;
+                font-size: 10px;
+            }
+            h2 {
+                display: inline-block;
+                position: relative;
+                top: -100px;
+                left: 125px;
+                width: 75%;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 0px;
+            }
+            .news__list__thumbnail {
+                object-fit: cover;
+                width: 120px;
+                height: 84px;
+            }
+        }
     }
-    
 
     .box404 {
         margin: 150px auto 110px auto;
@@ -860,6 +856,19 @@ html body {
     }
 }
 
+.footer {
+    padding: 15px;
+    .smedia{
+        position: relative;
+        top: 12px;
+        .smedia__img{
+            width: 30px;
+        }
+    }
+    a {
+        font-size: 12px;
+    }
+}
 
 @media only screen and (max-width: 580px) {
     .main{
