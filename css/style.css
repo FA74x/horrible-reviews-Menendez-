@@ -125,7 +125,7 @@ html body {
 
 .reviews {
   padding-top: 5px;
-  width: 90%;
+  width: 80%;
   border-radius: 30px; }
   .reviews .movie {
     background: #747373;
@@ -501,11 +501,14 @@ html body {
     .carousel p {
       font-size: 16px; }
   .reviews {
-    width: 100%; }
+    width: 100%;
+    margin: 0 !important; }
     .reviews .movie {
       width: 100%; }
       .reviews .movie h2 {
-        top: 10px; } }
+        top: 10px; }
+      .reviews .movie .movie__info .movie__synopsis {
+        overflow-y: auto; } }
 
 @media only screen and (max-width: 768px) {
   html body {

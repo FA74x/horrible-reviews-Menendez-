@@ -168,7 +168,7 @@ html body {
 
 .reviews {
     padding-top: 5px;
-    width: 90%;
+    width: 80%;
     border-radius: 30px;
     .movie {
         background: #747373;
@@ -623,10 +623,16 @@ html body {
 
     .reviews{
         width: 100%;
+        margin: 0 !important;
         .movie {
             width: 100%;
             h2 {
                 top: 10px;
+            }
+            .movie__info {
+                .movie__synopsis {
+                    overflow-y: auto;
+                }
             }
         }
     }
@@ -890,7 +896,6 @@ html body {
         }
     }
 }
-
 
 .footer {
     padding: 15px;
