@@ -21,12 +21,13 @@ html body {
 
 .navbar {
   background-color: #252525;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 2px !important; }
   .navbar a {
     color: white; }
 
 .logo {
-  width: 240px; }
+  width: 230px; }
 
 #btn {
   color: #802127;
@@ -109,8 +110,12 @@ html body {
   width: 65%;
   border-radius: 10px;
   overflow: hidden; }
+  .carousel h2 {
+    font-size: 22px;
+    margin-bottom: 0; }
   .carousel p {
-    font-size: 21px; }
+    font-size: 21px;
+    margin-bottom: 0; }
   .carousel img {
     width: 100%;
     display: block;
@@ -522,11 +527,9 @@ html body {
     border-radius: 15px;
     overflow: hidden; }
     .carousel h2 {
-      font-size: 15px;
-      margin-bottom: 1px; }
+      font-size: 15px; }
     .carousel p {
-      font-size: 15px;
-      margin-bottom: 0px; }
+      font-size: 15px; }
     .carousel img {
       height: 350px;
       width: auto; }

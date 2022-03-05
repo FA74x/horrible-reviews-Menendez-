@@ -35,13 +35,14 @@ html body {
 .navbar {
     background-color: #252525;
     text-decoration: none;
+    padding: 2px !important;
     a {
         color: white;
     }
 }
 
 .logo {
-    width: 240px;
+    width: 230px;
 }
 
 #btn {
@@ -148,8 +149,13 @@ html body {
     width: 65%;
     border-radius: 10px;
     overflow: hidden;
+    h2 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
     p {
         font-size:  21px;
+        margin-bottom: 0;
     }
     img {
         width: 100%;
@@ -656,11 +662,9 @@ html body {
         overflow: hidden;
         h2 {
             font-size: 15px;
-            margin-bottom: 1px;
         }
         p {
             font-size: 15px;
-            margin-bottom: 0px;
         }
         img {
             height: 350px;
