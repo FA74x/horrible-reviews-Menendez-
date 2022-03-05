@@ -690,9 +690,9 @@ html body {
     .navbar .logo {
       margin-left: 25%; }
     .navbar .collapse {
-      margin-left: 5px !important; }
+      margin-left: 0px !important; }
     .navbar #srch {
-      margin-left: 5px; }
+      margin-left: 0px; }
   .main .news__list {
     height: 84px; }
     .main .news__list p {
