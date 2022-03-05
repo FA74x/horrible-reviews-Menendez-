@@ -48,6 +48,11 @@ html body {
     a {
         color: white;
     }
+    .dropdown-menu {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 5px;
+    }
 }
 
 .logo {
@@ -891,8 +896,16 @@ html body {
         .collapse {
             margin-left: 0px !important;
         }
+        .btn {
+            margin-top: 5px !important;
+        }
         #srch {
+            margin-top: 5px;
             margin-left: 0px;
+        }
+        .dropdown-toggle {
+        padding-bottom: 2px !important;
+        padding-top: 0 !important;
         }
     }
 

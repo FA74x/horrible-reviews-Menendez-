@@ -32,6 +32,10 @@ html body {
     margin-left: 45px; }
   .navbar a {
     color: white; }
+  .navbar .dropdown-menu {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 5px; }
 
 .logo {
   width: 240px; }
@@ -691,8 +695,14 @@ html body {
       margin-left: 25%; }
     .navbar .collapse {
       margin-left: 0px !important; }
+    .navbar .btn {
+      margin-top: 5px !important; }
     .navbar #srch {
+      margin-top: 5px;
       margin-left: 0px; }
+    .navbar .dropdown-toggle {
+      padding-bottom: 2px !important;
+      padding-top: 0 !important; }
   .main .news__list {
     height: 84px; }
     .main .news__list p {
