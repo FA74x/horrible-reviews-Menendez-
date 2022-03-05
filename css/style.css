@@ -22,7 +22,14 @@ html body {
 .navbar {
   background-color: #252525;
   text-decoration: none;
-  padding: 2px !important; }
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-left: 30px !important; }
+  .navbar .nav-item {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .navbar .collapse {
+    margin-left: 45px; }
   .navbar a {
     color: white; }
 
@@ -42,6 +49,7 @@ html body {
   color: #252525; }
 
 #srch {
+  margin-left: 45px;
   border-radius: 30px; }
 
 .dropdown-menu {
@@ -676,6 +684,8 @@ html body {
     display: none; } }
 
 @media only screen and (max-width: 580px) {
+  .navbar {
+    padding-left: 15% !important; }
   .main .news__list {
     height: 84px; }
     .main .news__list p {
