@@ -691,6 +691,8 @@ html body {
       margin-left: 25%; }
     .navbar .collapse {
       margin-left: 5px !important; }
+    .navbar #srch {
+      margin-left: 5px; }
   .main .news__list {
     height: 84px; }
     .main .news__list p {
