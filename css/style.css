@@ -685,7 +685,12 @@ html body {
 
 @media only screen and (max-width: 580px) {
   .navbar {
-    padding-left: 15% !important; }
+    padding-bottom: 5px !important;
+    padding-left: 1% !important; }
+    .navbar .logo {
+      margin-left: 25%; }
+    .navbar .collapse {
+      margin-left: 5px !important; }
   .main .news__list {
     height: 84px; }
     .main .news__list p {
